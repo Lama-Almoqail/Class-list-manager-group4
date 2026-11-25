@@ -9,7 +9,7 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
      return len(names)
 #Written by: besmah alrumaih (Task 6)
-def to_upper(names)
+def to_upper(names):
     upper_names = []
     for name in names:
         upper_names.append(name.upper())
