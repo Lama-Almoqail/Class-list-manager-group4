@@ -27,3 +27,29 @@ def main():
  
  
 main()
+
+
+
+# Written by: Mashael (Task 7)
+def count_vowels(name):
+    count = 0
+    for letter in name.lower():
+        if letter in "aeiou":
+            count += 1
+    return count
+
+
+# Written by: Mashael (Task 8)
+def remove_duplicates(names):
+    new_names = []
+    for name in names:
+        if name not in new_names:
+            new_names.append(name)
+    return new_names
+
+
+def main():
+    print("Number of vowels in Sara:", count_vowels("Sara"))
+    print("Names without duplicates:", remove_duplicates(names))
+
+
