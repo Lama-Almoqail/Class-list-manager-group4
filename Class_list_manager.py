@@ -17,25 +17,10 @@ def to_upper(names):
     upper_names = []
     for name in names:
         upper_names.append(name.upper())
-     return upper_names
+    return upper_names
  
 
- 
-def main():
-    print("Welcome to the Class List Manager!")
-    print("Class list:", names)
-    print("Number of names:", count_names(names))
-    print("Uppercase names", to_upper(names))
-    print("Sorted names:", sort_names(names))
-    # Each student calls her function here, for example:
-    # print("Number of names:", count_names(names))
- 
- 
-main()
-
-
-
-# Written by: Mashael (Task 7)
+#Written by: Mashael (Task 7)
 def count_vowels(name):
     count = 0
     for letter in name.lower():
@@ -44,7 +29,7 @@ def count_vowels(name):
     return count
 
 
-# Written by: Mashael (Task 8)
+#Written by: Mashael (Task 8)
 def remove_duplicates(names):
     new_names = []
     for name in names:
@@ -52,9 +37,15 @@ def remove_duplicates(names):
             new_names.append(name)
     return new_names
 
-
 def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Number of names:", count_names(names))
+    print("Uppercase names", to_upper(names))
+    print("Sorted names:", sort_names(names))
+    # Each student calls her function here, for example:
+    # print("Number of names:", count_names(names))
     print("Number of vowels in Sara:", count_vowels("Sara"))
     print("Names without duplicates:", remove_duplicates(names))
-
-
+ 
+main()
