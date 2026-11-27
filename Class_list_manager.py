@@ -5,7 +5,7 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
  
  
 # ===== Each student adds her function BELOW this line =====
-#Written by:Lama (Task 1)
+#Written by: Lama (Task 1)
 def count_names(names):
      return len(names)
 # Written by: Sara Alturki (Task 3)
