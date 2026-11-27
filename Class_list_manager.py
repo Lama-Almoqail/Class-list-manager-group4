@@ -8,6 +8,12 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 #Written by: Lama (Task 1)
 def count_names(names):
      return len(names)
+ # Written by Nada Alruwayti (Task 2)
+def search_name(names, name):
+    for x in names:
+        if x == name:
+            return True
+    return False
 # Written by: Sara Alturki (Task 3)
 def sort_names(names):
     sorted_list = sorted(names)
@@ -40,6 +46,7 @@ def remove_duplicates(names):
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
+    print("Is Sara in the list?", search_name(names, "Sara"))
     print("Number of names:", count_names(names))
     print("Uppercase names", to_upper(names))
     print("Sorted names:", sort_names(names))
